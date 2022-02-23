@@ -1,0 +1,4 @@
+Dette er kildekoden til en præsentation om analytisk plangeometri.
+
+Selve præsentationen kan findes på https://jacobdebel.gitlab.io/analytisk_plangeometri.
+

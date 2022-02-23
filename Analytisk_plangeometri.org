@@ -1,0 +1,656 @@
+#+title: Analytisk plangeometri
+#+subtitle: Matematik A
+#+author: Vibenshus Gymnasium
+#+date: 
+# Themes: beige|black|blood|league|moon|night|serif|simple|sky|solarized|white
+#+reveal_theme: sky
+#+reveal_title_slide: <h2>%t</h2><h3>%s</h3><h4>%a</h4><h4>%d</h4>
+#+reveal_title_slide_background:
+#+reveal_default_slide_background:
+#+reveal_extra_options: slideNumber:"c/t",progress:true,transition:"slide",navigationMode:"default",history:false,hash:true
+# #+reveal_extra_attr: style="color:red"
+#+options: toc:nil num:nil tags:nil timestamp:nil ^:{}
+
+
+* Analytisk plangeometri
+#+attr_reveal: :frag (appear)
+Was ist das für ein ding?
+
+** Analytisk
+Brug af et koordinatsystem
+
+#+DOWNLOADED: screenshot @ 2020-08-10 11:00:57
+#+attr_html: :width 400px :align left
+#+attr_latex: :width 7cm
+[[file:img/2020-08-10_11-00-57_screenshot.png]]
+
+
+#+DOWNLOADED: screenshot @ 2020-08-10 11:01:15
+#+attr_html: :width 400px :align right
+#+attr_latex: :width 7cm
+[[file:img/2020-08-10_11-01-15_screenshot.png]]
+
+
+** plan
+Koordinatsystemet er kun i 2D
+#+DOWNLOADED: screenshot @ 2020-08-10 11:00:57
+#+attr_html: :width 400px 
+#+attr_latex: :width 7cm
+[[file:img/2020-08-10_11-00-57_screenshot.png]]
+
+** geometri
+Geometriske størrelser
+
+#+DOWNLOADED: ~/NEXTKBH/2020-2021/Matematik_A_2x/04_Analytisk_plangeometri/img/2020-08-10_11-05-34_iVBORw0KGg.png @ 2020-08-10 11:05:34
+#+attr_html: :width 500px
+#+attr_latex: :width 7cm
+[[file:img/2020-08-10_11-05-34_iVBORw0KGg.png]]
+
+** Alles zusammen
+Beskrivelse af todimensionelle geometriske størrelser og figurer i et koordinatsystem.
+
+
+#+DOWNLOADED: screenshot @ 2020-08-10 11:12:54
+#+attr_html: :width 600px
+#+attr_latex: :width 7cm
+[[file:img/2020-08-10_11-12-54_screenshot.png]]
+
+
+
+* Hvor langt er der mellem punkterne?
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+#+DOWNLOADED: screenshot @ 2020-08-10 11:19:07
+#+attr_html: :width 500px 
+#+attr_latex: :width 7cm
+[[file:img/2020-08-10_11-19-07_screenshot.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+#+attr_reveal: :frag (appear)
+- Makkerskabsgrupper
+- 8 minutter
+- Alle hjælpemidler er tilladte
+#+reveal_html: </div>
+** Hvordan gjorde I?
+
+** Forskelle og ligheder?
+Hvad er der af konkrete forskelle og ligheder mellem de andre gruppers metode og jeres egen?
+
+#+attr_reveal: :frag (appear)
+- Makkerskabgrupper
+- 8 minutter
+
+** Hvad siger grupperne?
+
+** Hvad siger vi i fællesskab?
+#+attr_reveal: :frag (appear)
+Afstandsformlen
+
+#+attr_reveal: :frag (appear)
+$$\lvert A B \rvert = \sqrt{\left( x_B - x_A \right)^2 + \left( y_B - y_A \right)^2}$$
+
+#+attr_reveal: :frag (appear)
+- Pythagoras' læresætning i forklædning
+- Virker for alle punkter alle steder i koordinatsystemet
+- Rækkefølgen af $A$ og $B$ og x og y er ligegyldig
+
+** Lidt opgaver
+
+#+DOWNLOADED: screenshot @ 2020-08-10 11:34:55
+#+attr_html: :width 400px :align left
+[[file:img/2020-08-10_11-34-55_screenshot.png]]
+
+
+#+DOWNLOADED: screenshot @ 2020-08-10 11:35:23
+#+attr_html: :width 400px :align right
+[[file:img/2020-08-10_11-35-23_screenshot.png]]
+
+** Backup - Recap af lineære sammenhænge
+
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+- Kend 2 punkter, som en rette linje skal gå igennem
+- Beregn hældningskoefficienten
+  $$a = \frac{\Delta y}{\Delta x} = \frac{y_2-y_1}{x_2-x_1}$$
+- Beregn skæringen med y-aksen
+  $$b = y_1 - a \cdot x_1 = y_2 - a \cdot x_2$$
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+#+DOWNLOADED: screenshot @ 2020-08-10 13:10:40
+#+attr_html: :width 400px
+#+attr_latex: :width 7cm
+[[file:img/2020-08-10_13-10-40_screenshot.png]]
+#+reveal_html: </div>
+
+
+* Hvor er midtpunktet?
+
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+#+DOWNLOADED: screenshot @ 2020-08-10 11:19:07
+#+attr_html: :width 500px 
+#+attr_latex: :width 7cm
+[[file:img/2020-08-10_11-19-07_screenshot.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+#+attr_reveal: :frag (appear)
+- Makkerskabsgrupper
+- 8 minutter
+- Alle hjælpemidler er tilladte
+#+reveal_html: </div>
+
+** Hvordan gjorde I?
+
+** Forskelle og ligheder?
+Hvad er der af konkrete forskelle og ligheder mellem de andre gruppers metode og jeres egen?
+
+#+attr_reveal: :frag (appear)
+- Makkerskabgrupper
+- 8 minutter
+
+** Hvad siger grupperne?
+
+** Hvad siger vi i fællesskab?
+Midtpunktsformlen
+$$M = \left( \frac{x_1 + x_2}{2}\,,\, \frac{y_1+y_2}{2} \right)$$
+
+#+attr_reveal: :frag (appear)
+- Tænk på gennemsnittet af x-koordinaterne og y-koordinaterne hver for sig.
+
+* Lidt mere om linjer
+
+* Er linjerne parallelle?
+
+#+DOWNLOADED: screenshot @ 2020-08-10 13:31:16
+#+attr_html: :width 600px
+#+attr_latex: :width 7cm
+[[file:img/2020-08-10_13-31-16_screenshot.png]]
+
+* Er linjerne *ortogonale*?
+#+DOWNLOADED: screenshot @ 2020-08-10 13:31:16
+#+attr_html: :width 600px
+#+attr_latex: :width 7cm
+[[file:img/2020-08-10_13-31-16_screenshot.png]]
+
+** Ortogonal/vinkelret
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+Produktet af hældningstallene for to ortogonale rette linjer giver -1
+
+$$a_1 \cdot a_2=-1$$
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+#+DOWNLOADED: https://matbhtx.systime.dk/fileadmin/_processed_/7/5/csm_A1-15_bc1521f7ef.png @ 2020-08-10 13:44:36
+#+attr_html: :width 600px
+#+attr_latex: :width 7cm
+[[file:img/2020-08-10_13-44-36_csm_A1-15_bc1521f7ef.png]]
+#+reveal_html: </div>
+
+** Opgaver
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+*Opgave 1*
+
+En linje går gennem punkterne $(1,1)$ og $(8,6)$, mens en anden linje går gennem punkterne $(10,-1)$ og $(-4,9)$.
+- Undersøg om linjerne er ortogonale.
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+*Opgave 2*
+
+Et linjestykke er afgrænset af endepunkterne $A(4,1)$ og $B(-2,-3)$.
+- Bestem en ligning for *midtnormalen* til linjestykket $AB$.
+#+reveal_html: </div>
+
+** Beviset
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div class="column" style="float:left; width: 70%">
+- I makkerpar
+- Find beviset her [[https://matbhtx.systime.dk/?id=c12090]]
+- Skift til at læse højt for hinanden.
+- Hjælp hinanden med at forstå alle skridt.
+- Gå først videre i teksten når begge parter forstår teksten.
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 30%">
+
+#+DOWNLOADED: screenshot @ 2020-08-10 14:01:03
+#+attr_html: :width 200px
+#+attr_latex: :width 7cm
+[[file:img/2020-08-10_14-01-03_screenshot.png]]
+#+reveal_html: </div>
+
+* Vinkel med vandret
+
+#+attr_reveal: :frag (appear)
+#+begin_quote
+Hvis man går 1 til højre, hvor meget går man så op eller ned?
+#+end_quote
+
+#+attr_reveal: :frag (appear)
+- Arbejd i makkerskabsgrupper
+- Find en sammehæng (ligning) mellem vinkel med vandret og hældningstal.
+- Smart trekant
+- Vinkel
+- Trigonometri
+
+** I skulle gerne få
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+$$\boxed{a = \tan \left( v \right)}$$
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+#+attr_html: :width 300px
+[[./img/vinkel_med_vandret.png]]
+#+reveal_html: </div>
+
+
+** Opgave
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+Linjerne $l$ og $m$ er givet ved ligningerne
+\begin{align*}
+l: y &= -0.8 x +4 \\
+m: y &= 0.7 x -1
+\end{align*}
+
+Linjerne er tydeligvis ikke ortogonale.
+
+1. Hvad er vinklen mellem $l$ og $m$ (den mindste)?
+2. Hvis linjen $l$ "holdes fast" på x-aksen, hvor meget skal dens skæringspunkt på y-aksen så forskydes, for at $l$ og $m$ bliver ortogonale?
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+#+DOWNLOADED: https://matbhtx.systime.dk/fileadmin/_processed_/a/7/csm_opgave-5_154124a242.png @ 2020-08-10 14:14:31
+#+attr_html: :width 600px
+#+attr_latex: :width 7cm
+[[file:img/2020-08-10_14-14-31_csm_opgave-5_154124a242.png]]
+#+reveal_html: </div>
+
+* *Projektion* af punkt på linje
+I har et punkt $P(4,2)$ og en linje $l: y=-2x+1$
+- Find *projektionen* af $P$ på $l$.
+
+#+attr_reveal: :frag (appear)
+- Makkerskabsgrupper
+- 8 minutter
+- Alle hjælpemidler er tilladt
+
+** Hvordan har I gjort?
+
+
+** Hvordan kan det gøres i hånden?
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+#+attr_reveal: :frag (appear)
+- Anvend $a_1\cdot a_2=-1$
+- Find skæringen med y-aksen for linjen gennem $P$ og $P_0$
+- Find skæringspunktet mellem den oprindelige linje og linjen gennem $P$ og $P_0$.
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+#+DOWNLOADED: https://matbhtx.systime.dk/fileadmin/_processed_/5/4/csm_A1-21_a249245a77.png @ 2020-08-10 14:34:55
+#+attr_html: :width 300px
+#+attr_latex: :width 7cm
+[[file:img/2020-08-10_14-34-55_csm_A1-21_a249245a77.png]]
+#+reveal_html: </div>
+
+* Afstand mellem punkt og linje
+Hvad er afstanden?
+
+#+DOWNLOADED: screenshot @ 2020-08-18 08:39:31
+#+attr_html: :width 600px
+#+attr_latex: :width 7cm
+[[file:img/2020-08-18_08-39-31_screenshot.png]]
+
+** Med trigonometri
+
+#+attr_html: :width 600px
+#+attr_latex: :width 7cm
+[[file:img/2020-08-18_08-56-25_screenshot.png]]
+
+
+#+attr_html: :width 600px
+[[file:img/2020-08-18_08-53-37_csm_figur_16-kap5_2ec40558fd.png]]
+
+** En anden måde (vha vektorer)
+#+reveal_html: <div style="font-size: 60%;">
+For punktet $P(x_1, y_1)$ og linjen $m: ax + by +c = 0$ er afstanden mellem $P$ og $m$ givet ved
+
+$$\boxed{dist(P, m) = \frac{\lvert a\cdot x_1+b\cdot y_1+c \rvert}{\sqrt{a^2+b^2}}}$$
+
+Normalvektoreren til linjen $m$ er givet ved $\vec{n} = \begin{pmatrix} a \\ b \end{pmatrix}$.
+
+** Opgaver
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+*Opgave 1*
+
+I har givet to parallelle linjer:
+
+\begin{align*}
+y &= -\frac{1}{3} x -6 \\
+y &= -\frac{1}{3} x + 5
+\end{align*}
+
+1. Bestem afstanden mellem de to linjer.
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+*Opgave 2*
+
+I har givet en linje $k: -2x+4y-8 = 0$
+
+1. Bestem koordinaterne til linjens normalvektor $\vec{n}$.
+2. Bestem afstanden mellem linjen $k$ og punktet $(2,6)$.
+2. Bestem afstanden mellem linjen $k$ og punktet $(0,0)$.
+#+reveal_html: </div>
+
+* Hvad er dette?
+#+attr_reveal: :frag (appear)
+- $x^2+y^2-18x +12y +108 = 0$
+- $2^2 = x^2+y^2$
+- $4^2 = \left( x-5 \right)^2+ \left( y+7 \right)^2$
+- $4^2 = \left( x-5 \right)^2+ \left( y-7 \right)^2$
+
+** De er alle cirkler
+Cirklens ligning
+$$(x-a)^2+ (y-b)^2 = r^2$$
+
+- $r$ er cirklens /radius/
+- $(a,b)$ er cirklens /centrum/
+#+attr_reveal: :frag (appear)
+- Læg mærke til fortegnene for cirklens centrum.
+- Hvad skal I være særligt opmærksomme på?
+
+ 
+** Opgaver
+*Opgave 1:*
+
+Undersøg om følgende ligninger fremstiller cirkler. Angiv om muligt centrum og radius.
+
+1. $x^2 -9 +y^2 = 0$
+2. $x^2 - 4x + y^2+6y +4 =0$
+3. $4x^2+4y^2= 32y - 16x -80$
+
+#+reveal: split
+
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+*Opgave 2:*
+
+En ligning, der fremstiller en cirkel, har følgende udseende:
+
+$$(x+3)^2 + (y+1)^2 = 16$$
+
+1. Bestem de punkter på cirkelperiferien, hvis x-værdi er lig med -5.
+2. Bestem cirklens skæringspunkter med henholdsvis x- og y-aksen.
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+*Opgave 3:*
+Der er givet tre punkter i et koordinatsystem $(0,0)$, $(4,2)$ og $(6,0)$
+
+1. Bestem en ligning for den cirkel, hvis periferi indeholder alle tre punkter.
+#+reveal_html: </div>
+
+** En cirkel som en funktion?
+
+#+reveal: split
+#+reveal_html: <div style="font-size: 80%;">
+Kan denne cirkel skrives som en funktion?
+$$(x+2)^2+(y-3)^2 = 4^2$$
+
+#+DOWNLOADED: screenshot @ 2020-08-24 08:53:50
+#+attr_html: :width 400px
+#+attr_latex: :width 7cm
+[[file:img/2020-08-24_08-53-50_screenshot.png]]
+
+#+reveal: split
+NOPE!
+
+#+attr_reveal: :frag (appear)
+Kan den så skrives som *to* funktioner?
+
+#+attr_reveal: :frag (appear)
+Prøv jer frem i jeres makkerskabsgrupper
+
+#+reveal: split
+#+attr_reveal: :frag (appear)
+$$(x+2)^2+(y-3)^2 = 4^2$$
+#+attr_reveal: :frag (appear)
+TRYLLE, TRYLLE, TRYLLE
+#+attr_reveal: :frag (appear)
+\begin{align*}
+f_1(x)&=3+\sqrt{4^2-(x+2)^2} \\
+f_2(x)&=3-\sqrt{4^2-(x+2)^2}
+\end{align*}
+
+#+reveal: split
+"Overbollen"
+$$f_1(x)=3+\sqrt{4^2-(x+2)^2}$$
+
+#+DOWNLOADED: screenshot @ 2020-08-24 09:04:39
+#+attr_html: :width 400px
+#+attr_latex: :width 7cm
+[[file:img/2020-08-24_09-04-39_screenshot.png]]
+
+#+reveal: split
+"Underbollen"
+$$f_1(x)=3-\sqrt{4^2-(x+2)^2}$$
+
+
+#+DOWNLOADED: screenshot @ 2020-08-24 09:05:29
+#+attr_html: :width 400px
+#+attr_latex: :width 7cm
+[[file:img/2020-08-24_09-05-29_screenshot.png]]
+
+
+#+reveal: split
+Alles zusammen
+
+#+DOWNLOADED: screenshot @ 2020-08-24 09:07:12
+#+attr_html: :width 400px
+#+attr_latex: :width 7cm
+[[file:img/2020-08-24_09-07-12_screenshot.png]]
+
+** TRYLLE, TRYLLE, TRYLLE
+
+#+begin_export html
+<iframe width="600" height="400" src="https://www.youtube.com/embed/K-kDG1Kbz3Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
+
+* Cirkler og linjer
+
+** Tangenter til cirkler
+Vi har en cirkel, $(x+4)^2 + (y-2)^2 = 20$ og et punkt$(10,0)$.
+
+#+DOWNLOADED: screenshot @ 2020-08-24 09:42:23
+#+attr_html: :width 600px
+#+attr_latex: :width 7cm
+[[file:img/2020-08-24_09-42-23_screenshot.png]]
+
+#+reveal: split
+Lad os finde tangenterne til cirklen, som går gennem $(10,0)$.
+
+#+DOWNLOADED: screenshot @ 2020-08-24 09:44:03
+#+attr_html: :width 600px
+#+attr_latex: :width 7cm
+[[file:img/2020-08-24_09-44-03_screenshot.png]]
+
+#+attr_reveal: :frag (appear)
+Hvordan skal vi gøre det uden geogebra?
+
+#+reveal: split
+#+reveal_html: <div style="font-size: 60%;">
+Find først *hældningen* for tangenten.
+#+attr_reveal: :frag (appear)
+- "Radius" og tangent er *vinkelret* på hinanden.
+- Tegn *smarte* trekanter.
+- Find de brugbare vinkler med vandret.
+- Omregn til hældningstal.
+
+#+attr_reveal: :frag (appear)
+#+attr_html: :width 500px
+[[file:img/2020-08-24_09-59-40_screenshot.png]]
+
+#+attr_reveal: :frag (appear)
+- $a_1 = -0.5$ og $a_2=0.18$
+
+#+reveal: split
+#+reveal_html: <div style="font-size: 60%;">
+Find nu tangenternes skæringer med y-aksen vha
+$$b = y_1 - a \cdot x_1$$
+
+og opskriv tangenternes ligninger
+
+#+attr_reveal: :frag (appear)
+#+attr_html: :width 500px
+[[file:img/2020-08-24_10-03-26_screenshot.png]]
+
+#+attr_reveal: :frag (appear)
+$$y=-0.5 x + 5 \quad \text{og} \quad y=0.18 x - 1.82$$
+
+
+** Opgaver
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+*Opgave 1*
+
+En cirkel har ligningen $(x-4)^2+(y-1)^2=2^2$
+
+1. Bestem ligningerne til de tangenter til cirklen, der går gennem punktet $(0,0)$.
+2. Bestem vinklen mellem de to tangenter.
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+*Opgave 2*
+
+En ret linje $m$ er givet ved ligningen:
+
+$$m: 3x -4y + 8 = 0$$
+
+1. Bestem afstanden fra punktet $P(3,2)$ til linjen.
+2. Bestem cirklens ligning for den cirkel, der har centrum i $P$, og som tangerer linjen $m$.
+#+reveal_html: </div>
+
+** Skæringspunkter mellem ret linje og cirkel
+Vi har cirklen $(x-1)^2+(y-4)^2 = 50$ og den rette linje $y=2x+7$
+
+#+attr_reveal: :frag (appear)
+- Hvad kan man gøre, når man ved, at de to objekter skærer hinanden?
+- Indsæt linjens ligning på rette sted i cirklens ligning.
+- Løs den fremkomne 2.gradsligning.
+
+#+reveal: split
+Hvordan var det nu lige med de 2.gradsligninger?
+
+#+attr_reveal: :frag (appear)
+$$a x^2 + b x + c = 0$$
+#+attr_reveal: :frag (appear)
+$$d = b^2-4 a c$$
+#+attr_reveal: :frag (appear)
+$$x = \frac{-b \pm \sqrt{d}}{2 a}$$
+
+#+reveal: split
+#+reveal_html: <div style="font-size: 60%;">
+$(x-1)^2+(y-4)^2 = 50$ og $y=2x+7$
+
+#+attr_reveal: :frag (appear)
+$$(x-1)^2 + (2x+7 -4)^2 = 50$$
+#+attr_reveal: :frag (appear)
+$$x^2 + 1 - 2x + 4x^2 + 3^2 + 12x - 50 = 0$$
+#+attr_reveal: :frag (appear)
+$$5x^{2} + 10 x -40 = 0$$
+#+attr_reveal: :frag (appear)
+$$d = 10^2 - 4\cdot 5 \cdot (-40) = 900$$
+#+attr_reveal: :frag (appear)
+$$x = \frac{-10 \pm \sqrt{900}}{2\cdot 5} \to x_1=2 \text{ og } x_2=-4$$
+#+attr_reveal: :frag (appear)
+$$y_1 = 2\cdot 2 +7 = 11 \text{ og } y_2 = 2 \cdot (-4) + 7 = -1$$
+
+#+reveal: split
+Ergo er skæringspunkterne $(2,11)$ og $(-4, -1)$.
+
+#+attr_html: :width 400px
+[[file:img/2020-08-24_10-39-41_screenshot.png]]
+
+** Opgaver
+- I makkerpar.
+- Find selv på en cirkel og en ret linje, som skærer hinanden.
+- Find selv skæringspunkterne mellem cirklen og linjen. Brug gerne geogebra.
+- Byt opgaver indbyrdes i makkerskabsgruppen.
+- Beregn skæringspunkterne i jeres nye opgave *i hånden*.
+
+  
+* Skæringspunkter mellem to cirkler
+
+#+reveal: split
+#+reveal_html: <div style="font-size: 60%;">
+Hvordan findes skæringspunkterne mellem disse cirkler?
+\begin{align*}
+(x-3)^2+(y+1)^2 &= 3^2 \\
+(x-4)^2+(y-1)^2&=2^2
+\end{align*}
+
+#+attr_html: :width 400px
+[[file:img/2020-08-24_10-52-12_screenshot.png]]
+
+#+reveal: split
+#+reveal_html: <div style="font-size: 60%;">
+Ophæv alle parenteser og sæt alle led på en side i hver ligning
+
+#+attr_reveal: :frag (appear)
+\begin{align*}
+x^2-6x+y^2+1+2y&=0 \\
+x^2+13-8x +y^2-2y &= 0
+\end{align*}
+
+#+attr_reveal: :frag (appear)
+Sæt ligningerne lig hinanden (eller træk de to ligninger fra hinanden), og få
+
+#+attr_reveal: :frag (appear)
+$$-2x - 4y +12 = 0$$
+#+attr_reveal: :frag (appear)
+$$\boxed{y= - \frac{1}{2}x +3}$$
+
+#+attr_reveal: :frag (appear)
+- En linje gennem de to skæringspunkter.
+- Find selv skæringspunkterne mellem linjen og en af cirklerne.
+- Svaret er $(2.21 \,,\,1.90)$ og $(5.78\,,\, 0.11)$.
+
+  
+* Projekt Parkanlæg
+
+#+attr_html: :width 300px
+[[file:img/2020-08-24_11-03-27_screenshot.png]]
+
+#+reveal: split
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+#+attr_html: :width 400px
+[[file:img/2020-08-24_11-04-27_screenshot.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+#+attr_html: :width 300px
+[[file:img/2020-08-24_11-04-01_screenshot.png]]
+#+reveal_html: </div>
+
+
+#+reveal: split
+
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+#+attr_html: :width 400px
+[[file:img/2020-08-24_11-04-45_screenshot.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+#+attr_html: :width 300px
+[[file:img/2020-08-24_11-04-01_screenshot.png]]
+#+reveal_html: </div>
+
+
+* 5 min fordybelse
+- Stilhed
+- Skriv jeres egne refleksioner ned på baggrund af dagens undervisning.
